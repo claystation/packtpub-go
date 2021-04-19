@@ -2,17 +2,14 @@ package main
 
 import "fmt"
 
-func main () {
-	daysOfWeek := []string{
-		"Monday",
-		"Tuesday",
-		"Wednesday",
-		"Thursday",
-		"Friday",
-		"Saturday",
-		"Sunday",
+func main() {
+	goodBad :=[]string{
+		"Good",
+		"Good",
+		"Bad",
+		"Good",
+		"Good",
 	}
-	sundayStart := append(daysOfWeek[6:], daysOfWeek[:6]...)
 
-	fmt.Println(sundayStart)
+	fmt.Println(append(goodBad[:2], goodBad[3:]...))
 }

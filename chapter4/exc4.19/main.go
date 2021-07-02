@@ -35,7 +35,7 @@ func GetDots() []dot {
 			y: 27,
 		},
 		size: size{
-			width: 5,
+			width:  5,
 			height: 7,
 		},
 	}

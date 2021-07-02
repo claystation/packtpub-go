@@ -2,15 +2,15 @@ package main
 
 import (
 	"fmt"
-    "time"
+	"time"
 )
 
-func getConfig () (bool, string, time.Time) {
-    return false, "info", time.Now()
+func getConfig() (bool, string, time.Time) {
+	return false, "info", time.Now()
 }
 
 func main() {
-    Debug, Loglevel, startUpTime := getConfig()
+	Debug, Loglevel, startUpTime := getConfig()
 
-    fmt.Println(Debug, Loglevel, startUpTime)
+	fmt.Println(Debug, Loglevel, startUpTime)
 }

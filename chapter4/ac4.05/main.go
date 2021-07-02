@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	goodBad :=[]string{
+	goodBad := []string{
 		"Good",
 		"Good",
 		"Bad",

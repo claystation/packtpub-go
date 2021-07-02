@@ -7,8 +7,8 @@ import (
 var foo string = "bar"
 
 func main() {
-    var baz string = "qux"
+	var baz string = "qux"
 
-    fmt.Println(foo, baz)
+	fmt.Println(foo, baz)
 
 }

@@ -2,17 +2,16 @@ package main
 
 import (
 	"fmt"
-    "time"
+	"time"
 )
 
 var (
-    Debug = false
-    LogLevel = "info"
-    startUpTime = time.Now()
-
+	Debug       = false
+	LogLevel    = "info"
+	startUpTime = time.Now()
 )
 
 func main() {
-    fmt.Println(Debug, LogLevel, startUpTime)
+	fmt.Println(Debug, LogLevel, startUpTime)
 
 }

@@ -3,22 +3,22 @@ package main
 import "fmt"
 
 type user struct {
-	name string
-	age int
+	name    string
+	age     int
 	balance float64
-	member bool
+	member  bool
 }
 
 func getUsers() []user {
 	u1 := user{
-		name: "Tracy",
-		age: 51,
+		name:    "Tracy",
+		age:     51,
 		balance: 98.34,
-		member: true,
+		member:  true,
 	}
 
 	u2 := user{
-		age: 19,
+		age:  19,
 		name: "Nick",
 	}
 

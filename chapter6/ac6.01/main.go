@@ -6,7 +6,7 @@ import (
 )
 
 var (
-	ErrInvalidLastName = errors.New("invalid last name")
+	ErrInvalidLastName      = errors.New("invalid last name")
 	ErrInvalidRoutingNumber = errors.New("invalid routing number")
 )
 

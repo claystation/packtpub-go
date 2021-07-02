@@ -9,7 +9,7 @@ func main() {
 	}
 }
 
-func fizzBuzz(i int) (int, string){
+func fizzBuzz(i int) (int, string) {
 	switch {
 	case i%15 == 0:
 		return i, "FizzBuzz"

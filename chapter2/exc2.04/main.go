@@ -1,8 +1,10 @@
 package main
+
 import (
 	"errors"
 	"fmt"
 )
+
 func validate(input int) error {
 	if input < 0 {
 		return errors.New("input can't be a negative number")

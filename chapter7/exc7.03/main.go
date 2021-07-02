@@ -3,20 +3,19 @@ package main
 import "fmt"
 
 type record struct {
-	key string
+	key       string
 	valueType string
-	data interface{}
+	data      interface{}
 }
 
-
 type person struct {
-	lastName string
-	age int
+	lastName  string
+	age       int
 	isMarried bool
 }
 
 type animal struct {
-	name string
+	name     string
 	category string
 }
 

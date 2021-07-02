@@ -8,5 +8,5 @@ func main() {
 		return i * i
 	}
 
-	fmt.Printf("The square of %d is %d\n",j, x(j))
+	fmt.Printf("The square of %d is %d\n", j, x(j))
 }

@@ -3,27 +3,27 @@ package main
 import "fmt"
 
 func main() {
-   var total float64 = 2 * 13
-   fmt.Println("Sub: ", total)
+	var total float64 = 2 * 13
+	fmt.Println("Sub: ", total)
 
-   total = total + (4 * 2.25)
-   fmt.Println("Sub: ", total)
-   
-   total = total - 5
-   fmt.Println("Sub: ", total)
+	total = total + (4 * 2.25)
+	fmt.Println("Sub: ", total)
 
-   tip := total * 0.1
-   fmt.Println("Tip: ", tip)
+	total = total - 5
+	fmt.Println("Sub: ", total)
 
-   split := total /2
-   fmt.Println("Split: ", split)
+	tip := total * 0.1
+	fmt.Println("Tip: ", tip)
 
-   visitCount := 24
-   visitCount = visitCount +1
+	split := total / 2
+	fmt.Println("Split: ", split)
 
-   remainder := visitCount % 5
+	visitCount := 24
+	visitCount = visitCount + 1
 
-   if remainder == 0 {
-     fmt.Println("With this visit, you've earned a reward.")
-   }
- }
+	remainder := visitCount % 5
+
+	if remainder == 0 {
+		fmt.Println("With this visit, you've earned a reward.")
+	}
+}

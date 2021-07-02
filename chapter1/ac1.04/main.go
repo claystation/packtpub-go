@@ -1,5 +1,7 @@
 package main
+
 import "fmt"
+
 func main() {
 	count := 0
 	if count < 5 {

@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main () {
+func main() {
 	daysOfWeek := []string{
 		"Monday",
 		"Tuesday",

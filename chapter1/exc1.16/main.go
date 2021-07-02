@@ -7,8 +7,9 @@ const MaxCacheSize int = 10 * GlobalLimit
 
 const (
 	CacheKeyBook = "book_"
-	CacheKeyCD = "cd_"
+	CacheKeyCD   = "cd_"
 )
+
 var cache map[string]string
 
 func cacheGet(key string) string {
@@ -27,11 +28,11 @@ func GetBook(isbn string) string {
 }
 
 func SetBook(isbn string, name string) {
-	cacheSet(CacheKeyBook + isbn, name)
+	cacheSet(CacheKeyBook+isbn, name)
 }
 
 func GetCD(sku string) string {
-	return cacheGet(CacheKeyCD+sku)
+	return cacheGet(CacheKeyCD + sku)
 }
 
 func SetCD(sku string, title string) {

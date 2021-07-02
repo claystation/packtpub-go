@@ -5,21 +5,21 @@ import (
 )
 
 type employee struct {
-	id int
+	id        int
 	firstName string
-	lastName string
+	lastName  string
 }
 
 type developer struct {
-	individual employee
-	hourlyRate float64
+	individual        employee
+	hourlyRate        float64
 	hoursWorkedInYear float64
-	review map[string]interface{}
+	review            map[string]interface{}
 }
 
 type manager struct {
-	individual employee
-	salary float64
+	individual     employee
+	salary         float64
 	commissionRate float64
 }
 
@@ -65,7 +65,7 @@ func review(d developer) {
 			}
 		}
 	}
-	fmt.Printf("%s got a review rating of %.2f \n", d.individual.fullName(), rating / float64(len(d.review)))
+	fmt.Printf("%s got a review rating of %.2f \n", d.individual.fullName(), rating/float64(len(d.review)))
 }
 
 func main() {

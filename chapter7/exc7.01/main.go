@@ -7,8 +7,8 @@ type Speaker interface {
 }
 
 type person struct {
-	name string
-	age int
+	name      string
+	age       int
 	isMarried bool
 }
 

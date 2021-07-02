@@ -9,7 +9,7 @@ func main() {
 	fmt.Printf("Developer salary: %d\n", devSalary)
 }
 
-func salary(x, y int, f func (int,int) int) int {
+func salary(x, y int, f func(int, int) int) int {
 	pay := f(x, y)
 	return pay
 }

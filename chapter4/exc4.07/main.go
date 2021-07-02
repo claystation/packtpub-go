@@ -9,7 +9,7 @@ func fillArray(arr [10]int) [10]int {
 	return arr
 }
 
-func opArray(arr [10]int)  [10]int {
+func opArray(arr [10]int) [10]int {
 	for i := 0; i < len(arr); i++ {
 		arr[i] = arr[i] * arr[i]
 	}

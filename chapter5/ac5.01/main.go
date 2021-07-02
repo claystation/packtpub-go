@@ -3,6 +3,7 @@ package main
 import "fmt"
 
 type Weekday int
+
 const (
 	Monday Weekday = iota
 	Tuesday
@@ -14,15 +15,15 @@ const (
 )
 
 type employee struct {
-	id int
+	id        int
 	firstName string
-	lastName string
+	lastName  string
 }
 
 type developer struct {
 	individual employee
 	hourlyRate int
-	workWeek [7]int
+	workWeek   [7]int
 }
 
 func logHours(developer *developer, weekday Weekday, hours int) {

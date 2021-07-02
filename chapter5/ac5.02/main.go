@@ -3,6 +3,7 @@ package main
 import "fmt"
 
 type Weekday int
+
 const (
 	Monday Weekday = iota
 	Tuesday
@@ -14,9 +15,9 @@ const (
 )
 
 type Employee struct {
-	id int
+	id        int
 	firstName string
-	lastName string
+	lastName  string
 }
 
 type Developer struct {

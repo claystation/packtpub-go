@@ -6,7 +6,7 @@ import (
 )
 
 var (
-	ErrHourlyRate = errors.New("invalid hourly rate")
+	ErrHourlyRate  = errors.New("invalid hourly rate")
 	ErrHoursWorked = errors.New("invalid hours worked per week")
 )
 
@@ -24,7 +24,7 @@ func payDay(hoursWorked, hourlyRate int) int {
 		panic(ErrHourlyRate)
 	}
 	if hoursWorked < 0 || hoursWorked > 80 {
-		panic(ErrHoursWorked )
+		panic(ErrHoursWorked)
 	}
 	if hoursWorked > 40 {
 		hoursOver := hoursWorked - 40

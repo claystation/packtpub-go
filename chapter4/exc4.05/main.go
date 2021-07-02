@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func message()  string {
+func message() string {
 	arr := [4]string{"ready", "Get", "Go", "to"}
 
 	arr[1] = "It's"

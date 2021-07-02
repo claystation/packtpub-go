@@ -5,7 +5,7 @@ import (
 	"time"
 )
 
-func main()  {
+func main() {
 	var count1 *int
 	count2 := new(int)
 	countTemp := 5

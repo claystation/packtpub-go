@@ -56,7 +56,6 @@ func main() {
 	fmt.Println("-----------")
 	validateLoan(500, 1000, 1000, 24)
 
-
 	fmt.Println("Applicant 2")
 	fmt.Println("-----------")
 	validateLoan(350, 1000, 10000, 12)

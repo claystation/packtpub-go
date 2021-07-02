@@ -6,7 +6,7 @@ import (
 )
 
 var (
-	ErrHourlyRate = errors.New("invalid hourly rate")
+	ErrHourlyRate  = errors.New("invalid hourly rate")
 	ErrHoursWorked = errors.New("invalid hours worked per week")
 )
 
